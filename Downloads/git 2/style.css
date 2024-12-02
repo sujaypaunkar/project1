@@ -1,0 +1,47 @@
+/* General styles for all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial', sans-serif; /* Set a universal font */
+    margin: 20px 0; /* Add spacing around headings */
+    text-transform: capitalize; /* Make the first letter uppercase */
+}
+
+/* Specific styles for each heading level */
+h1 {
+    color: #0033cc; /* Blue */
+    font-size: 3rem; /* Large font */
+    text-align: center; /* Center the heading */
+    border-bottom: 2px solid #0033cc; /* Bottom border */
+    padding-bottom: 10px; /* Space between text and border */
+}
+
+h2 {
+    color: #009933; /* Green */
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+h3 {
+    color: #ff6600; /* Orange */
+    font-size: 2rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+h4 {
+    color: #800080; /* Purple */
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+h5 {
+    color: #ff0000; /* Red */
+    font-size: 1.25rem;
+    letter-spacing: 1px; /* Add spacing between letters */
+}
+
+h6 {
+    color: #666666; /* Gray */
+    font-size: 1rem;
+    text-transform: uppercase; /* Make text uppercase */
+    font-weight: lighter;
+}
